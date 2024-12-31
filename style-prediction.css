@@ -1,0 +1,43 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6; /* Міжрядковий інтервал для кращої читабельності */
+  margin: 20px; /* Відступи від країв сторінки */
+  background-color: #f8f8f8; /* Фоновий колір */
+  color: #000000; /* Колір тексту */
+}
+
+header {
+  text-align: center; /* Центрує текст під зображенням */
+  font-size: 18px; /* Розмір тексту */
+  font-weight: bold; /* Жирний текст */
+  color: #034b03; /* Колір тексту */
+  background-image: url(../images/christmas-header.jpg);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 1.8em; /* Розмір заголовків */
+  margin-top: 1.5em; /* Відступ зверху для заголовків */
+  margin-bottom: 0.5em; /* Відступ знизу для заголовків */
+  color: #000000; /* Колір заголовків */
+  border-bottom: 1px solid #ddd; /* Лінія під заголовком */
+  padding-bottom: 0.5em;
+}
+
+.name {
+  font-weight: bold; /* Жирний шрифт для імен */
+}
+
+.prediction {
+  margin-bottom: 1em; /* Відступ між прогнозами */
+  padding: 15px; /* Внутрішні відступи для блоку прогнозу */
+  border: 1px solid #ddd; /* Рамка навколо блоку прогнозу */
+  border-radius: 5px; /* Закруглені кути рамки */
+  background-color: #fff; /* Білий фон для блоку прогнозу */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05); /* Легка тінь для об'єму */
+}
+
+.highlight {
+  font-weight: bold; /* Жирний шрифт для виділених елементів */
+  color: #034b03; /* Синій колір для виділення (можна змінити) */
+}
